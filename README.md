@@ -14,7 +14,7 @@ Add a configuration entry in the "plugins" section of your ZoneMTA app
 
 ```json
 ...
-  "plugins": { 
+  "plugins": {
     "modules/zonemta-delivery-counters": {
       "enabled": "main",
       "redis": "redis://localhost:6379/2",
@@ -23,6 +23,8 @@ Add a configuration entry in the "plugins" section of your ZoneMTA app
   }
 ...
 ```
+
+Redis configuration is optional. If not set then the redis connection provided by ZoneMTA is used.
 
 ## License
 

@@ -1,11 +1,11 @@
 {
-  "name": "zonemta-delivery-counters",
-  "version": "1.0.0",
-  "description": "Delivery counters plugin for ZoneMTA",
-  "main": "index.js",
-  "author": "Andris Reinman",
-  "license": "EUPL-1.1",
-  "dependencies": {
-    "redis": "^2.6.3"
-  }
+    "name": "zonemta-delivery-counters",
+    "version": "1.0.1",
+    "description": "Delivery counters plugin for ZoneMTA",
+    "main": "index.js",
+    "author": "Andris Reinman",
+    "license": "EUPL-1.1",
+    "dependencies": {
+        "redis": "^2.8.0"
+    }
 }
