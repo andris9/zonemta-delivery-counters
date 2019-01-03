@@ -26,6 +26,8 @@ Add a configuration entry in the "plugins" section of your ZoneMTA app
 
 Redis configuration is optional. If not set then the redis connection provided by ZoneMTA is used.
 
+Please note that if you used the zone-mta-template when installing ZoneMTA (Which is the default procedure in the documentaton) zone-mta-counters is already installed for you.
+
 ## License
 
 European Union Public License 1.1 ([details](http://ec.europa.eu/idabc/eupl.html))
