@@ -26,7 +26,7 @@ Add a configuration entry in the "plugins" section of your ZoneMTA app
 
 Redis configuration is optional. If not set then the redis connection provided by ZoneMTA is used.
 
-Please note that if you used the [zone-mta-template] to install ZoneMTA (Which is the default procedure in the documentaton) zone-mta-counters is already installed for you.
+Please note that if you used the zone-mta-template when installing ZoneMTA (Which is the default procedure in the documentaton) zone-mta-counters is already installed for you.
 
 ## License
 
